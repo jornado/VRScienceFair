@@ -7,3 +7,4 @@
 * Google VR
 * iTween
 * Android Studio + JDK (to build to device, if desired)
+* Google Cardboard (if building to device)
