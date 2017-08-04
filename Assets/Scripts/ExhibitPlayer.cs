@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ExhibitPlayer : MonoBehaviour {
 
+    // Public Variables
     public float sheetColumns = 4f; 
     public float sheetRows = 2f; 
     public float framesPerSecond = 1.0f;
@@ -16,7 +17,10 @@ public class ExhibitPlayer : MonoBehaviour {
     public GameObject right;
     public GameObject table;
 
-
+    // Private Variables
+    private AudioSource audioClip;
+    private ExhibitPlayer[] allExhibits;
+  
     private Vector2 tileSize;
     private Material animatedMat;
     private Renderer rend;
@@ -24,8 +28,8 @@ public class ExhibitPlayer : MonoBehaviour {
     private float origScaleX;
     private float origScaleY;
     private Vector3 oldPosition;
-    
-    void Start()
+
+    void Awake()
     {
         // Movie stuff
         rend = GetComponent<Renderer>();
@@ -37,6 +41,10 @@ public class ExhibitPlayer : MonoBehaviour {
         oldPosition = new Vector3(GetComponent<Transform>().position.x, GetComponent<Transform>().position.y, GetComponent<Transform>().position.z);
         origScaleX = GetComponent<Transform>().localScale.x;
         origScaleY = GetComponent<Transform>().localScale.y;
+
+        // Audio stuff
+        audioClip = GetComponent<AudioSource>();
+        allExhibits = FindObjectsOfType(typeof(ExhibitPlayer)) as ExhibitPlayer[];
     }
 
     void Update()
@@ -52,20 +60,66 @@ public class ExhibitPlayer : MonoBehaviour {
         activated = !activated;
         if (activated)
         {
-            Embiggen();
+            Activate();
         }
         else {
-            Smallerize();
+            Deactivate();
         }
     }
 
+    void ToggleSetDressing(bool tf)
+    {
+        top.SetActive(tf);
+        right.SetActive(tf);
+        left.SetActive(tf);
+        table.SetActive(tf);
+    }
+
+    void TurnOffSetDressing()
+    {
+        ToggleSetDressing(false);
+    }
+
+    void TurnOnSetDressing()
+    {
+        ToggleSetDressing(true);
+    }
+
+    void Activate()
+    {
+        StopAllAudio();
+        TurnOffSetDressing();
+        Embiggen();
+        if (audioClip && audioClip.isActiveAndEnabled && !audioClip.isPlaying)
+        {
+            audioClip.Play();
+        }
+        
+    }
+
+    void Deactivate()
+    {
+        TurnOnSetDressing();
+        Smallerize();
+        if (audioClip && audioClip.isActiveAndEnabled && audioClip.isPlaying)
+        {
+            audioClip.Stop();
+        }
+    }
+
+    void StopAllAudio()
+    {
+        ExhibitPlayer thisScript = gameObject.GetComponent<ExhibitPlayer>();
+        foreach (ExhibitPlayer exhibit in allExhibits)
+        {
+            if (exhibit != thisScript && exhibit.activated)
+            {
+                exhibit.ToggleActivated();
+            }
+        }
+    }
     void Embiggen()
     {
-        top.SetActive(false);
-        right.SetActive(false);
-        left.SetActive(false);
-        table.SetActive(false);
-
         rend.material = animatedMat;
         Transform transform = GetComponent<Transform>();
         transform.localScale = new Vector3(2f, 1.2f, GetComponent<Transform>().localScale.z);
@@ -73,11 +127,6 @@ public class ExhibitPlayer : MonoBehaviour {
 
     void Smallerize()
     {
-        top.SetActive(true);
-        right.SetActive(true);
-        left.SetActive(true);
-        table.SetActive(true);
-
         rend.material = stoppedMaterial;
         GetComponent<Transform>().position = oldPosition;
         transform.localScale = new Vector3(origScaleX, origScaleY, GetComponent<Transform>().localScale.z);
