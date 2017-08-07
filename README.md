@@ -1,5 +1,4 @@
-# VRScienceFair
----
+# VR Science Fair
 
 * VR Science Fair is a Google Cardboard VR research project for my Udacity VR Nanodegree. It explores different locomotion mechanics in a fun science fair environment.
 
@@ -10,4 +9,9 @@
 * Android Studio + JDK or XCode and all that provisioning jazz. (to build to device, if desired) 
 * Google Cardboard (if building to device)
 
+## Build Settings
+* Add intro and main to Scenes in Build, intro as starting scene.
 
+## Screenshots
+![Alt text](/Docs/UnitySS_intro_8_7_17.png?raw=true "Intro Scene")
+![Alt text](/Docs/UnitySS_main2_8_7_17.png.png?raw=true "Main Scene")
