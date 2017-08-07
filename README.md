@@ -14,4 +14,4 @@
 
 ## Screenshots
 ![Alt text](/Docs/UnitySS_intro_8_7_17.png?raw=true "Intro Scene")
-![Alt text](/Docs/UnitySS_main2_8_7_17.png.png?raw=true "Main Scene")
+![Alt text](/Docs/UnitySS_main2_8_7_17.png?raw=true "Main Scene")
