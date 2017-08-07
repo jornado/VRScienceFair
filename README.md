@@ -19,4 +19,4 @@
 ![Welcome Scene](/Docs/welcome.png?raw=true "Welcome Scene")
 ![Intro Scene](/Docs/intro.png?raw=true "Intro Scene")
 ![Main Scene](/Docs/main.png?raw=true "Main Scene")
-![Demo Video](/Docs/demo.mp4?raw=true "Demo Video")
+[Demo Video](/Docs/demo.mp4)
