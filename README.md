@@ -1,4 +1,5 @@
 # VRScienceFair
+---
 
 * VR Science Fair is a Google Cardboard VR research project for my Udacity VR Nanodegree. It explores different locomotion mechanics in a fun science fair environment.
 
