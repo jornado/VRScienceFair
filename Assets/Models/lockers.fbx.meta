@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 0a5cf7c8b05877944b09e6cf8519045f
+timeCreated: 1502127191
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: lockers
+    100002: //RootNode
+    100004: locks
+    100006: pasted__locker_row
+    100008: pasted__lockers
+    100010: pasted__locks
+    100012: locker
+    100014: locker30
+    100016: locker31
+    100018: locker32
+    100020: locker33
+    100022: locker34
+    100024: locker35
+    100026: locker36
+    100028: locker37
+    100030: locker38
+    100032: locker39
+    100034: locker40
+    100036: locker41
+    100038: locker42
+    100040: locker43
+    100042: locker44
+    100044: locker45
+    100046: locker46
+    100048: locker47
+    100050: locker48
+    100052: locker49
+    100054: locker50
+    100056: locker51
+    100058: locker52
+    100060: locker53
+    100062: locker54
+    100064: locker55
+    100066: locker56
+    100068: locker57
+    100070: locker_handle
+    100072: locker_handle 1
+    100074: locker_handle 10
+    100076: locker_handle 11
+    100078: locker_handle 12
+    100080: locker_handle 13
+    100082: locker_handle 14
+    100084: locker_handle 15
+    100086: locker_handle 16
+    100088: locker_handle 17
+    100090: locker_handle 18
+    100092: locker_handle 19
+    100094: locker_handle 2
+    100096: locker_handle 20
+    100098: locker_handle 21
+    100100: locker_handle 22
+    100102: locker_handle 23
+    100104: locker_handle 24
+    100106: locker_handle 25
+    100108: locker_handle 26
+    100110: locker_handle 27
+    100112: locker_handle 28
+    100114: locker_handle 3
+    100116: locker_handle 4
+    100118: locker_handle 5
+    100120: locker_handle 6
+    100122: locker_handle 7
+    100124: locker_handle 8
+    100126: locker_handle 9
+    100128: locker_locker
+    100130: locker_locker 1
+    100132: locker_locker 10
+    100134: locker_locker 11
+    100136: locker_locker 12
+    100138: locker_locker 13
+    100140: locker_locker 14
+    100142: locker_locker 15
+    100144: locker_locker 16
+    100146: locker_locker 17
+    100148: locker_locker 18
+    100150: locker_locker 19
+    100152: locker_locker 2
+    100154: locker_locker 20
+    100156: locker_locker 21
+    100158: locker_locker 22
+    100160: locker_locker 23
+    100162: locker_locker 24
+    100164: locker_locker 25
+    100166: locker_locker 26
+    100168: locker_locker 27
+    100170: locker_locker 28
+    100172: locker_locker 3
+    100174: locker_locker 4
+    100176: locker_locker 5
+    100178: locker_locker 6
+    100180: locker_locker 7
+    100182: locker_locker 8
+    100184: locker_locker 9
+    100186: locker_row2
+    100188: lockers_final 1
+    100190: lockers_handles_final
+    400000: lockers
+    400002: //RootNode
+    400004: locks
+    400006: pasted__locker_row
+    400008: pasted__lockers
+    400010: pasted__locks
+    400012: locker
+    400014: locker30
+    400016: locker31
+    400018: locker32
+    400020: locker33
+    400022: locker34
+    400024: locker35
+    400026: locker36
+    400028: locker37
+    400030: locker38
+    400032: locker39
+    400034: locker40
+    400036: locker41
+    400038: locker42
+    400040: locker43
+    400042: locker44
+    400044: locker45
+    400046: locker46
+    400048: locker47
+    400050: locker48
+    400052: locker49
+    400054: locker50
+    400056: locker51
+    400058: locker52
+    400060: locker53
+    400062: locker54
+    400064: locker55
+    400066: locker56
+    400068: locker57
+    400070: locker_handle
+    400072: locker_handle 1
+    400074: locker_handle 10
+    400076: locker_handle 11
+    400078: locker_handle 12
+    400080: locker_handle 13
+    400082: locker_handle 14
+    400084: locker_handle 15
+    400086: locker_handle 16
+    400088: locker_handle 17
+    400090: locker_handle 18
+    400092: locker_handle 19
+    400094: locker_handle 2
+    400096: locker_handle 20
+    400098: locker_handle 21
+    400100: locker_handle 22
+    400102: locker_handle 23
+    400104: locker_handle 24
+    400106: locker_handle 25
+    400108: locker_handle 26
+    400110: locker_handle 27
+    400112: locker_handle 28
+    400114: locker_handle 3
+    400116: locker_handle 4
+    400118: locker_handle 5
+    400120: locker_handle 6
+    400122: locker_handle 7
+    400124: locker_handle 8
+    400126: locker_handle 9
+    400128: locker_locker
+    400130: locker_locker 1
+    400132: locker_locker 10
+    400134: locker_locker 11
+    400136: locker_locker 12
+    400138: locker_locker 13
+    400140: locker_locker 14
+    400142: locker_locker 15
+    400144: locker_locker 16
+    400146: locker_locker 17
+    400148: locker_locker 18
+    400150: locker_locker 19
+    400152: locker_locker 2
+    400154: locker_locker 20
+    400156: locker_locker 21
+    400158: locker_locker 22
+    400160: locker_locker 23
+    400162: locker_locker 24
+    400164: locker_locker 25
+    400166: locker_locker 26
+    400168: locker_locker 27
+    400170: locker_locker 28
+    400172: locker_locker 3
+    400174: locker_locker 4
+    400176: locker_locker 5
+    400178: locker_locker 6
+    400180: locker_locker 7
+    400182: locker_locker 8
+    400184: locker_locker 9
+    400186: locker_row2
+    400188: lockers_final 1
+    400190: lockers_handles_final
+    2300000: lockers
+    2300002: locks
+    2300004: pasted__lockers
+    2300006: pasted__locks
+    2300008: locker_handle
+    2300010: locker_handle 1
+    2300012: locker_handle 10
+    2300014: locker_handle 11
+    2300016: locker_handle 12
+    2300018: locker_handle 13
+    2300020: locker_handle 14
+    2300022: locker_handle 15
+    2300024: locker_handle 16
+    2300026: locker_handle 17
+    2300028: locker_handle 18
+    2300030: locker_handle 19
+    2300032: locker_handle 2
+    2300034: locker_handle 20
+    2300036: locker_handle 21
+    2300038: locker_handle 22
+    2300040: locker_handle 23
+    2300042: locker_handle 24
+    2300044: locker_handle 25
+    2300046: locker_handle 26
+    2300048: locker_handle 27
+    2300050: locker_handle 28
+    2300052: locker_handle 3
+    2300054: locker_handle 4
+    2300056: locker_handle 5
+    2300058: locker_handle 6
+    2300060: locker_handle 7
+    2300062: locker_handle 8
+    2300064: locker_handle 9
+    2300066: locker_locker
+    2300068: locker_locker 1
+    2300070: locker_locker 10
+    2300072: locker_locker 11
+    2300074: locker_locker 12
+    2300076: locker_locker 13
+    2300078: locker_locker 14
+    2300080: locker_locker 15
+    2300082: locker_locker 16
+    2300084: locker_locker 17
+    2300086: locker_locker 18
+    2300088: locker_locker 19
+    2300090: locker_locker 2
+    2300092: locker_locker 20
+    2300094: locker_locker 21
+    2300096: locker_locker 22
+    2300098: locker_locker 23
+    2300100: locker_locker 24
+    2300102: locker_locker 25
+    2300104: locker_locker 26
+    2300106: locker_locker 27
+    2300108: locker_locker 28
+    2300110: locker_locker 3
+    2300112: locker_locker 4
+    2300114: locker_locker 5
+    2300116: locker_locker 6
+    2300118: locker_locker 7
+    2300120: locker_locker 8
+    2300122: locker_locker 9
+    2300124: locker_row2
+    2300126: lockers_final 1
+    2300128: lockers_handles_final
+    3300000: lockers
+    3300002: locks
+    3300004: pasted__lockers
+    3300006: pasted__locks
+    3300008: locker_handle
+    3300010: locker_handle 1
+    3300012: locker_handle 10
+    3300014: locker_handle 11
+    3300016: locker_handle 12
+    3300018: locker_handle 13
+    3300020: locker_handle 14
+    3300022: locker_handle 15
+    3300024: locker_handle 16
+    3300026: locker_handle 17
+    3300028: locker_handle 18
+    3300030: locker_handle 19
+    3300032: locker_handle 2
+    3300034: locker_handle 20
+    3300036: locker_handle 21
+    3300038: locker_handle 22
+    3300040: locker_handle 23
+    3300042: locker_handle 24
+    3300044: locker_handle 25
+    3300046: locker_handle 26
+    3300048: locker_handle 27
+    3300050: locker_handle 28
+    3300052: locker_handle 3
+    3300054: locker_handle 4
+    3300056: locker_handle 5
+    3300058: locker_handle 6
+    3300060: locker_handle 7
+    3300062: locker_handle 8
+    3300064: locker_handle 9
+    3300066: locker_locker
+    3300068: locker_locker 1
+    3300070: locker_locker 10
+    3300072: locker_locker 11
+    3300074: locker_locker 12
+    3300076: locker_locker 13
+    3300078: locker_locker 14
+    3300080: locker_locker 15
+    3300082: locker_locker 16
+    3300084: locker_locker 17
+    3300086: locker_locker 18
+    3300088: locker_locker 19
+    3300090: locker_locker 2
+    3300092: locker_locker 20
+    3300094: locker_locker 21
+    3300096: locker_locker 22
+    3300098: locker_locker 23
+    3300100: locker_locker 24
+    3300102: locker_locker 25
+    3300104: locker_locker 26
+    3300106: locker_locker 27
+    3300108: locker_locker 28
+    3300110: locker_locker 3
+    3300112: locker_locker 4
+    3300114: locker_locker 5
+    3300116: locker_locker 6
+    3300118: locker_locker 7
+    3300120: locker_locker 8
+    3300122: locker_locker 9
+    3300124: locker_row2
+    3300126: lockers_final 1
+    3300128: lockers_handles_final
+    4300000: locks
+    4300002: lockers
+    4300004: pasted__lockers
+    4300006: pasted__locks
+    4300008: locker_row2
+    4300010: locker_locker
+    4300012: locker_handle
+    4300014: locker_locker
+    4300016: locker_handle
+    4300018: locker_locker
+    4300020: locker_handle
+    4300022: locker_locker
+    4300024: locker_handle
+    4300026: locker_locker
+    4300028: locker_handle
+    4300030: locker_locker
+    4300032: locker_handle
+    4300034: locker_locker
+    4300036: locker_handle
+    4300038: locker_locker
+    4300040: locker_handle
+    4300042: locker_locker
+    4300044: locker_handle
+    4300046: locker_locker
+    4300048: locker_handle
+    4300050: locker_locker
+    4300052: locker_handle
+    4300054: locker_locker
+    4300056: locker_handle
+    4300058: locker_locker
+    4300060: locker_handle
+    4300062: locker_locker
+    4300064: locker_handle
+    4300066: locker_locker
+    4300068: locker_handle
+    4300070: locker_locker
+    4300072: locker_handle
+    4300074: locker_locker
+    4300076: locker_handle
+    4300078: locker_locker
+    4300080: locker_handle
+    4300082: locker_locker
+    4300084: locker_handle
+    4300086: locker_locker
+    4300088: locker_handle
+    4300090: locker_locker
+    4300092: locker_handle
+    4300094: locker_locker
+    4300096: locker_handle
+    4300098: locker_locker
+    4300100: locker_handle
+    4300102: locker_locker
+    4300104: locker_handle
+    4300106: locker_locker
+    4300108: locker_handle
+    4300110: locker_locker
+    4300112: locker_handle
+    4300114: locker_locker
+    4300116: locker_handle
+    4300118: locker_locker
+    4300120: locker_handle
+    4300122: locker_locker
+    4300124: locker_handle
+    4300126: lockers_final
+    4300128: lockers_handles_final
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

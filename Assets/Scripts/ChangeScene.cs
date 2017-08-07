@@ -6,8 +6,8 @@ public class ChangeScene : MonoBehaviour
 {
     public Texture fadeImage;
     public float waitTime = 3f;
+    public float fadeSpeed = .125f;
 
-    private float fadeSpeed = .125f;
     private int drawDepth = -1000;    
     private float alpha = 0.0f;
     private int fadeDir = -1;
